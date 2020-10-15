@@ -1,9 +1,10 @@
 package com.macro.cloud.service.impl;
 
+import org.springframework.stereotype.Component;
+
 import com.macro.cloud.domain.CommonResult;
 import com.macro.cloud.domain.User;
 import com.macro.cloud.service.UserService;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by macro on 2019/9/5.

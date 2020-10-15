@@ -1,8 +1,5 @@
 package com.macro.cloud.controller;
 
-import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.macro.cloud.domain.CommonResult;
-import com.macro.cloud.domain.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.macro.cloud.domain.CommonResult;
+import com.macro.cloud.domain.User;
 
 /**
  * 熔断功能

@@ -1,10 +1,10 @@
 package com.macro.cloud.config;
 
-import com.alibaba.cloud.sentinel.annotation.SentinelRestTemplate;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
+
+import com.alibaba.cloud.sentinel.annotation.SentinelRestTemplate;
 
 /**
  * Created by macro on 2019/8/29.
